@@ -1,4 +1,19 @@
 import React from 'react'
+import OwlCarousel from 'react-owl-carousel';
+
+const options = {
+    items: 4,
+    margin: 14,
+    nav: false,
+    dots: false,
+    loop: true,
+    stagePadding: 1,
+    responsive: {
+        1200: { items: 4, margin: 14 },
+        992: { items: 3, margin: 10 },
+        768: { items: 2, margin: 10 },
+    }
+}
 
 const NewArrival = () => {
     return (
@@ -25,7 +40,7 @@ const NewArrival = () => {
                 </div>
                 <div className="block-products-carousel__slider">
                     <div className="block-products-carousel__preloader"></div>
-                    <div className="owl-carousel">
+                    <OwlCarousel {...options}>
                         <div className="block-products-carousel__column">
                             <div className="block-products-carousel__cell">
                                 <div className="product-card product-card--hidden-actions"><button
@@ -2470,7 +2485,7 @@ const NewArrival = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </OwlCarousel>
                 </div>
             </div>
         </div>

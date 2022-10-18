@@ -1,4 +1,17 @@
 import React from 'react'
+import OwlCarousel from 'react-owl-carousel';
+
+const options = {
+    margin: 30,
+    nav: false,
+    dots: false,
+    loop: true,
+    responsive: {
+        992: { items: 2 },
+        0: { items: 1 },
+    }
+}
+
 
 const Posts = () => {
     return (
@@ -17,7 +30,7 @@ const Posts = () => {
                             </svg></button></div>
                 </div>
                 <div className="block-posts__slider">
-                    <div className="owl-carousel">
+                    <OwlCarousel {...options}>
                         <div className="post-card">
                             <div className="post-card__image"><a href="#"><img src="assets/images/posts/post-1.jpg" alt="" /></a>
                             </div>
@@ -168,7 +181,7 @@ const Posts = () => {
                                     More</a></div>
                             </div>
                         </div>
-                    </div>
+                    </OwlCarousel>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 const options = {
     items: 4,
     margin: 14,
-    nav: true,
+    nav: false,
     dots: false,
     loop: true,
     stagePadding: 1,

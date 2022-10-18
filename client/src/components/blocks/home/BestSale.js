@@ -8,6 +8,7 @@ const BestSale = () => {
                     <h3 className="block-header__title">Bestsellers</h3>
                     <div className="block-header__divider"></div>
                 </div>
+
                 <div className="block-products__body">
                     <div className="block-products__featured">
                         <div className="block-products__featured-item">
@@ -155,6 +156,7 @@ const BestSale = () => {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="block-products__list">
                         <div className="block-products__list-item">
                             <div className="product-card product-card--hidden-actions"><button
