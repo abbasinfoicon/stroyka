@@ -114,10 +114,10 @@ const Header = () => {
                         <div className="topbar__container container">
                             <div className="topbar__row">
                                 <div className="topbar__item topbar__item--link">
-                                    <Link to="/" className="topbar-link"><i class="footer-contacts__icon far fa-envelope"></i> stroyka@example.com</Link>
+                                    <Link to="/" className="topbar-link"><i className="footer-contacts__icon far fa-envelope"></i> stroyka@example.com</Link>
                                 </div>
                                 <div className="topbar__item topbar__item--link">
-                                    <i class="footer-contacts__icon far fa-clock"></i> Mon-Sat 10:00pm - 7:00pm
+                                    <i className="footer-contacts__icon far fa-clock"></i> Mon-Sat 10:00pm - 7:00pm
                                 </div>
 
                                 <div className="topbar__spring"></div>

@@ -480,6 +480,7 @@ const RatedProduct = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-4">
                         <div className="block-header">
                             <h3 className="block-header__title">Special Offers</h3>
@@ -948,6 +949,7 @@ const RatedProduct = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-4">
                         <div className="block-header">
                             <h3 className="block-header__title">Bestsellers</h3>
